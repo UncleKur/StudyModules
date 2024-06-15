@@ -15,7 +15,15 @@ fun countWithWhile() {
 }
 
 fun countWithFor() {
-    for (i in 1..2030) {
+//    for (i in 1..2030) {
+//        println(i)
+//    }
+
+//    for (i in 2030 downTo 1) {
+//        println(i)
+//    }
+
+    for (i in 0..40 step 10) {
         println(i)
     }
     println("End")
