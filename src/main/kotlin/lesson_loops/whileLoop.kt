@@ -9,4 +9,10 @@ fun main() {
     }
     println("Ура! Вы ввели верное число: $number")
 
+    var secondNumber: Int
+    do {
+        print("Введите натуральное число: ")
+        secondNumber = readln().toInt()
+    } while(secondNumber < 1)
+    println("Ура! Вы ввели верное число: $number")
 }
